@@ -5,6 +5,27 @@
     <title>Andrey Kotsuba</title>
 </head>
 <body>
-<h1>Kotsuba Andrey</h1>
+    <div class="first-block">
+        <p>Первый блок, высота блока должна быть на весь экран, текст нужно отцентрировать с помощью флексов по вертикали и горизонтали -
+            <a href="https://flexible-boxes.wstone.io/#~(1~(c~(~2)~jc~'center~ai~'center)~2~())" target="_blank">пример</a>
+        </p>
+    </div>
 </body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .first-block {
+        height: 100vh;
+        background: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-block p {
+        font-size: 30px;
+    }
+</style>
 </html>
