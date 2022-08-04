@@ -7,8 +7,19 @@
 <body>
     <div class="first-block">
         <p>Первый блок, высота блока должна быть на весь экран, текст нужно отцентрировать с помощью флексов по вертикали и горизонтали -
-            <a href="https://flexible-boxes.wstone.io/#~(1~(c~(~2)~jc~'center~ai~'center)~2~())" target="_blank">пример</a>
+            <a href="https://flexible-boxes.wstone.io/#~(1~(c~(~2)~jc~'center~ai~'center)~2~())" target="_blank">пример</a>.
+            <br>
+            Второй блок ниже
         </p>
+    </div>
+    <h1>Второй блок, высота блока должна быть на весь экран, внутри 3 блока высотой 100 пикселей и шириной 100 пикселей,
+        разный цветов, отцентрировать с помощью с помощью флексов по вертикали и горизонтали -
+        <a href="https://flexible-boxes.wstone.io/#~(1~(jc~'center~ai~'center~c~(~2~3~4))~2~()~3~()~4~())" target="_blank">пример</a>.
+    </h1>
+    <div  class="second-block">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
     </div>
 </body>
 <style>
@@ -26,6 +37,33 @@
 
     .first-block p {
         font-size: 30px;
+    }
+
+    .second-block {
+        height: 100vh;
+        background: #00ff1e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-block .block1 {
+        background: red;
+    }
+
+    .second-block .block2 {
+        background: black;
+    }
+
+    .second-block .block3 {
+        background: yellow;
+    }
+
+    .second-block .block1,
+    .second-block .block2,
+    .second-block .block3 {
+        height: 100px;
+        width: 100px;
     }
 </style>
 </html>
