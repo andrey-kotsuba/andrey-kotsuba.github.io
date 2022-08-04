@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="debc9ba6-943b-4a97-82a3-c796a5209c6f" name="Default" comment="first block">
+    <list default="true" id="debc9ba6-943b-4a97-82a3-c796a5209c6f" name="Default" comment="second block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -94,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510048414257</updated>
       <workItem from="1510048415662" duration="502000" />
-      <workItem from="1659608490728" duration="1354000" />
+      <workItem from="1659608490728" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="first block">
       <created>1659609057309</created>
@@ -103,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659609057309</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second block">
+      <created>1659610030675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659610030675</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second block">
+      <created>1659610050234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659610050234</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -147,7 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first block" />
-    <option name="LAST_COMMIT_MESSAGE" value="first block" />
+    <MESSAGE value="second block" />
+    <option name="LAST_COMMIT_MESSAGE" value="second block" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
