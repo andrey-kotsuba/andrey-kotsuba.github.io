@@ -5,100 +5,34 @@
     <title>Andrey Kotsuba</title>
 </head>
 <body>
-    <div class="first-block">
-        <p>Первый блок, высота блока должна быть на весь экран, текст нужно отцентрировать с помощью флексов по вертикали и горизонтали -
-            <a href="https://flexible-boxes.wstone.io/#~(1~(c~(~2)~jc~'center~ai~'center)~2~())" target="_blank">пример</a>.
-            <br>
-            Второй блок ниже
-        </p>
-    </div>
-    <h1>Второй блок, высота блока должна быть на весь экран, внутри 3 блока высотой 100 пикселей и шириной 100 пикселей,
-        разный цветов, отцентрировать с помощью с помощью флексов по вертикали и горизонтали -
-        <a href="https://flexible-boxes.wstone.io/#~(1~(jc~'center~ai~'center~c~(~2~3~4))~2~()~3~()~4~())" target="_blank">пример</a>.
-    </h1>
-    <div  class="second-block">
-        <div class="block1"></div>
-        <div class="block2"></div>
-        <div class="block3"></div>
-    </div>
-    <h1>Третий блок, высота блока должна быть на весь экран, внутри 3 блока высотой 100 пикселей и шириной 100 пикселей,
-        разный цветов, отцентрировать с помощью с помощью флексов по вертикали и по горизонтали так как в примере -
-        <a href="https://flexible-boxes.wstone.io/#~(1~(jc~'space-between~ai~'center~c~(~2~3~4))~2~()~3~()~4~())" target="_blank">пример</a>.
-    </h1>
-    <div  class="third-block">
-        <div class="block1"></div>
-        <div class="block2"></div>
-        <div class="block3"></div>
-    </div>
+    <header>
+        <button>Меню</button>
+        <div>Логотип</div>
+        <button>Вход</button>
+    </header>
+
 </body>
 <style>
     * {
         padding: 0;
         margin: 0;
     }
-    .first-block {
-        height: 100vh;
-        background: aqua;
+    body {
+        background: #baf6e7;
+    }
+    header {
         display: flex;
-        justify-content: center;
         align-items: center;
-    }
-
-    .first-block p {
-        font-size: 30px;
-    }
-
-    .second-block {
-        height: 100vh;
-        background: #00ff1e;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .second-block .block1 {
-        background: red;
-    }
-
-    .second-block .block2 {
-        background: black;
-    }
-
-    .second-block .block3 {
-        background: yellow;
-    }
-
-    .second-block .block1,
-    .second-block .block2,
-    .second-block .block3 {
-        height: 100px;
-        width: 100px;
-    }
-
-    .third-block {
-        height: 100vh;
-        background: #00aeff;
-        display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-    .third-block .block1 {
-        background: red;
-    }
-
-    .third-block .block2 {
-        background: black;
+        padding: 10px 20px;
+        background: #326a5f;
+        border-radius: 0 0 10px 10px;
+        width: 96%;
+        margin: 0 auto;
     }
 
-    .third-block .block3 {
-        background: yellow;
-    }
-
-    .third-block .block1,
-    .third-block .block2,
-    .third-block .block3 {
-        height: 100px;
-        width: 100px;
+    header div {
+        color: #fff;
     }
 </style>
 </html>
