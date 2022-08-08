@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="debc9ba6-943b-4a97-82a3-c796a5209c6f" name="Default" comment="third block">
+    <list default="true" id="debc9ba6-943b-4a97-82a3-c796a5209c6f" name="Default" comment="mini landos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -96,7 +96,7 @@
       <workItem from="1510048415662" duration="502000" />
       <workItem from="1659608490728" duration="2366000" />
       <workItem from="1659635489049" duration="209000" />
-      <workItem from="1659964725114" duration="625000" />
+      <workItem from="1659964725114" duration="1221000" />
     </task>
     <task id="LOCAL-00001" summary="first block">
       <created>1659609057309</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659610895464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mini landos">
+      <created>1659965545257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965545257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -172,7 +179,8 @@
     <MESSAGE value="first block" />
     <MESSAGE value="second block" />
     <MESSAGE value="third block" />
-    <option name="LAST_COMMIT_MESSAGE" value="third block" />
+    <MESSAGE value="mini landos" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini landos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
