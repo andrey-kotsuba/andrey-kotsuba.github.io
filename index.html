@@ -16,6 +16,13 @@
         <img src="imgs/maks.jpg" alt="maks">
     </div>
 
+    <div class="second-block">
+        <p>Макс верстает!!!</p>
+        <video controls>
+            <source src="video/maks_gradient.mp4" type="video/mp4">
+        </video>
+    </div>
+
 </body>
 <style>
     * {
@@ -57,7 +64,8 @@
         font-style: italic;
     }
 
-    .first-block {
+    .first-block,
+    .second-block {
         width: 96%;
         margin: 30px auto;
         display: flex;
@@ -66,16 +74,29 @@
         flex-direction: column;
     }
 
-    .first-block img {
+    .first-block img,
+    .second-block video {
         width: 50%;
         min-width: 320px;
     }
 
-    .first-block p {
+    .second-block video {
+        max-height: 80vh;
+    }
+
+    .first-block p,
+    .second-block p{
         color: #fff;
         font-size: 40px;
-        text-shadow: 2px 2px #20695b;
         margin-bottom: 15px;
+    }
+
+    .first-block p {
+        text-shadow: 2px 2px #20695b;
+    }
+
+    .second-block p {
+        text-shadow: 2px 2px #ea3407;
     }
 </style>
 </html>
