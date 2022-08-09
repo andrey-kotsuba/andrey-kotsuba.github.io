@@ -41,6 +41,12 @@
         <div class="yellow-block"></div>
     </div>
 
+    <div class="six-block">
+        <div class="red-block"></div>
+        <div class="black-block"></div>
+        <div class="yellow-block"></div>
+    </div>
+
 </body>
 <style>
     * {
@@ -136,7 +142,8 @@
     }
     .third-block,
     .fourth-block,
-    .fifth-block {
+    .fifth-block,
+    .six-block {
         display: flex;
         width: 96%;
         margin: 30px auto;
@@ -152,6 +159,11 @@
 
     .fifth-block {
         justify-content: space-around;
+    }
+
+    .six-block {
+        justify-content: center;
+        flex-direction: row-reverse;
     }
 </style>
 </html>
