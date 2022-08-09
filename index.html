@@ -5,165 +5,60 @@
     <title>Andrey Kotsuba</title>
 </head>
 <body>
-    <header>
-        <button>Меню</button>
-        <div>Логотип</div>
-        <button>Вход</button>
-    </header>
-
-    <div class="first-block">
-        <p>Охеренная рыбалка!!!</p>
-        <img src="imgs/maks.jpg" alt="maks">
+<div class="first_block">
+    <div class="traffic_light">
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
     </div>
-
-    <div class="second-block">
-        <p>Макс верстает!!!</p>
-        <video controls>
-            <source src="video/maks_gradient.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <div class="third-block">
-        <div class="red-block"></div>
-        <div class="black-block"></div>
-        <div class="yellow-block"></div>
-    </div>
-
-    <div class="fourth-block">
-        <div class="red-block"></div>
-        <div class="black-block"></div>
-        <div class="yellow-block"></div>
-    </div>
-
-    <div class="fifth-block">
-        <div class="red-block"></div>
-        <div class="black-block"></div>
-        <div class="yellow-block"></div>
-    </div>
-
-    <div class="six-block">
-        <div class="red-block"></div>
-        <div class="black-block"></div>
-        <div class="yellow-block"></div>
-    </div>
-
+</div>
 </body>
 <style>
     * {
         padding: 0;
         margin: 0;
     }
-    body {
-        background: #baf6e7;
-    }
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 20px;
-        background: #326a5f;
-        border-radius: 0 0 10px 10px;
-        width: 96%;
-        margin: 0 auto;
-    }
 
-    header button {
-        padding: 10px;
-        background: #05f8c7;
-        border: none;
-        border-radius: 10px;
-        color: #000;
-    }
-
-    header button:hover {
-        padding: 10px;
-        background: #00ff1e;
-        cursor: pointer;
-    }
-
-    header div {
-        color: #fff;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-style: italic;
-    }
-
-    .first-block,
-    .second-block {
-        width: 96%;
-        margin: 30px auto;
+    .first_block {
+        padding: 20px;
+        background: aqua;
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    }
+    .traffic_light {
+        background: black;
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 70vw;
     }
 
-    .first-block img,
-    .second-block video {
-        width: 50%;
-        min-width: 320px;
+    .red, .yellow, .green {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.5;
     }
 
-    .second-block video {
-        max-height: 80vh;
+    .red:hover,
+    .yellow:hover,
+    .green:hover {
+        opacity: 1;
     }
 
-    .first-block p,
-    .second-block p {
-        color: #fff;
-        font-size: 40px;
-        margin-bottom: 15px;
-    }
-
-    .first-block p {
-        text-shadow: 2px 2px #20695b;
-    }
-
-    .second-block p {
-        text-shadow: 2px 2px #ea3407;
-    }
-    .red-block,
-    .black-block,
-    .yellow-block {
-        height: 100px;
-        width: 100px;
-    }
-
-    .red-block {
+    .red {
         background: red;
     }
 
-    .black-block {
-        background: black;
-    }
-
-    .yellow-block {
+    .yellow {
         background: yellow;
     }
-    .third-block,
-    .fourth-block,
-    .fifth-block,
-    .six-block {
-        display: flex;
-        width: 96%;
-        margin: 30px auto;
+
+    .green {
+        background: green;
     }
 
-    .third-block {
-        justify-content: center;
-    }
-
-    .fourth-block {
-        justify-content: space-between;
-    }
-
-    .fifth-block {
-        justify-content: space-around;
-    }
-
-    .six-block {
-        justify-content: center;
-        flex-direction: row-reverse;
-    }
 </style>
 </html>
