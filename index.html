@@ -23,6 +23,24 @@
         </video>
     </div>
 
+    <div class="third-block">
+        <div class="red-block"></div>
+        <div class="black-block"></div>
+        <div class="yellow-block"></div>
+    </div>
+
+    <div class="fourth-block">
+        <div class="red-block"></div>
+        <div class="black-block"></div>
+        <div class="yellow-block"></div>
+    </div>
+
+    <div class="fifth-block">
+        <div class="red-block"></div>
+        <div class="black-block"></div>
+        <div class="yellow-block"></div>
+    </div>
+
 </body>
 <style>
     * {
@@ -85,7 +103,7 @@
     }
 
     .first-block p,
-    .second-block p{
+    .second-block p {
         color: #fff;
         font-size: 40px;
         margin-bottom: 15px;
@@ -97,6 +115,43 @@
 
     .second-block p {
         text-shadow: 2px 2px #ea3407;
+    }
+    .red-block,
+    .black-block,
+    .yellow-block {
+        height: 100px;
+        width: 100px;
+    }
+
+    .red-block {
+        background: red;
+    }
+
+    .black-block {
+        background: black;
+    }
+
+    .yellow-block {
+        background: yellow;
+    }
+    .third-block,
+    .fourth-block,
+    .fifth-block {
+        display: flex;
+        width: 96%;
+        margin: 30px auto;
+    }
+
+    .third-block {
+        justify-content: center;
+    }
+
+    .fourth-block {
+        justify-content: space-between;
+    }
+
+    .fifth-block {
+        justify-content: space-around;
     }
 </style>
 </html>
