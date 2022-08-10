@@ -5,20 +5,17 @@
     <title>Andrey Kotsuba</title>
 </head>
 <body>
-<div class="first_block">
-    <div class="traffic_light">
-        <div class="red"></div>
-        <div class="yellow"></div>
-        <div class="green"></div>
+<div class="wrapper">
+    <div class="block">
+        <div class="text">Привет!</div>
     </div>
-</div>
-<div class="second_block">
-    <div class="sun">
-        <div class="eyes">
-            <div class="eye"></div>
-            <div class="eye"></div>
-        </div>
-        <div class="mouth"></div>
+
+    <div class="block">
+        <div class="text">Как</div>
+    </div>
+
+    <div class="block">
+        <div class="text">дела?</div>
     </div>
 </div>
 </body>
@@ -27,82 +24,33 @@
         padding: 0;
         margin: 0;
     }
-
-    .first_block,
-    .second_block {
-        padding: 20px;
-        background: aqua;
+    .wrapper {
         display: flex;
-        justify-content: center;
     }
-    .traffic_light {
-        background: black;
-        padding: 30px;
+    .block {
         display: flex;
-        justify-content: space-around;
-        width: 100%;
-        max-width: 70vw;
-    }
-
-    .red, .yellow, .green {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        cursor: pointer;
-        opacity: 0.5;
-        transition: opacity ease 1s;
-    }
-
-    .red:hover,
-    .yellow:hover,
-    .green:hover {
-        opacity: 1;
-    }
-
-    .red {
-        background: red;
-    }
-
-    .yellow {
-        background: yellow;
-    }
-
-    .green {
-        background: green;
-    }
-
-    .sun {
-        height: 300px;
+        height: 100px;
         width: 300px;
-        background: yellow;
-        border-radius: 50%;
+        background: #d3d346;
+        border-radius: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        cursor: pointer;
     }
 
-    .eyes  {
-        margin: 100px auto 0 auto;
-        width: 180px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .eye {
-        height: 20px;
-        width: 20px;
-        background: black;
-        border-radius: 50%;
+    .block .text {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 200ms,  color 4s;
     }
 
-    .mouth {
-        width: 150px;
-        height: 30px;
-        background: red;
-        margin: 70px auto 0 auto;
-        transition: all ease 1s;
-    }
-
-    .sun:hover .mouth {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
+    .block:hover .text {
+        opacity: 1;
+        color: red;
     }
 
 </style>
